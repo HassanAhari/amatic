@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.4.10",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "lodash.debounce": "^4.0.8",
+    "nuxt": "^3.13.0",
+    "socket.io-client": "^4.7.5",
+    "vue": "latest"
+  }
+}
